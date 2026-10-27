@@ -1,0 +1,56 @@
+.aboutSection{
+    padding: 2rem 4%;
+}
+.firstBoxAbout{
+    background-color: rgb(244, 243, 253);
+    border-radius: 10px;
+    padding: 2rem;
+}
+.titleAbout span{
+    color: rgb(95, 56, 199);
+}
+.titleAbout{
+    font-size: 36px;
+}
+.paragraphAbout{
+    padding: 1.5rem 0rem;
+    line-height: 1.5;
+}
+.learnMoreBtn{
+    background-color: rgb(103, 62, 209);
+    border: none;
+    color: white;
+    border-radius: 12px;
+    padding: 10px;
+}
+.containerAbout{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    
+}
+.secondBoxAbout{
+    background-color: rgb(244, 243, 253);
+    border-radius: 10px;
+     padding: 2rem 4rem;
+     text-align: center;
+     margin-top: 3rem;
+     line-height: 1.5;
+}
+.secondTitleAbout{
+    padding-bottom: 1rem;
+}
+.icon i{
+    color: rgb(84, 37, 162);
+}
+.icon {
+    border-radius: 50%;
+    background-color: rgb(214, 203, 253);
+   width: 40px;
+   height: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 10px auto;
+}

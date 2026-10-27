@@ -1,0 +1,18 @@
+.heroSection{
+    background-color: rgb(244, 243, 253);
+    padding: 2rem 4%;
+
+}
+.textMauve{
+    color: rgb(88, 69, 222);
+}
+.titleHero{
+    font-size: 46px;
+    padding: 1rem 0rem;
+}
+.titleHero span{
+    color: rgb(85, 61, 139);
+}
+.textHero{
+    color: rgb(111, 121, 161);
+}

@@ -1,0 +1,36 @@
+header{
+    background-color: rgb(26, 33, 64);
+    padding: 1.5rem 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.logo p, i{
+    color: white;
+}
+.logo p span{
+    color: rgb(100, 75, 223);
+}

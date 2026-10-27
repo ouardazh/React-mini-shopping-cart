@@ -1,0 +1,14 @@
+.productsSection{
+    padding: 4rem 4%;
+}
+.productsContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    
+}
+
+.paragProd{
+  color: rgb(192, 197, 211);
+  padding: 1rem 0rem; 
+}
