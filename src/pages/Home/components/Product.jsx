@@ -1,14 +1,24 @@
 import ProductCard from './ProdactCard'
 import './Product.css'
+import { useState } from 'react'
+import applewatch from '../../../assets/img/img2.jpg'
+import headphone from '../../../assets/img/headphone.jfif'
+import sneaker from '../../../assets/img/sneakers.jfif'
 
 
 function Product(){
 
-    const products = [
-    {name: "apple watch", price:1000, quantity:2},
-    {name: "head phone", price:2000, quantity:10},
-    {name: "sneakers", price:700, quantity:2}
-]
+   
+     const [products, setProducts] = useState([
+    {name: "apple watch", price:1000, quantity:2, image: applewatch},
+    {name: "head phone", price:2000, quantity:10, image:headphone},
+    {name: "sneakers", price:700, quantity:2, image:sneaker}
+])
+    function Delete(name){
+        setProducts(products.filter((p) => p.name !== name));
+            
+        }
+    
     return(
 
         
@@ -18,11 +28,15 @@ function Product(){
             <div className='productsContainer'>
                 {products.map((product) => (
                 <ProductCard 
+                image = {product.image}
                 name = {product.name}
                 price = {product.price}
                 quantity = {product.quantity} 
+                onDelete = {Delete}
                 />
             ))}
+            
+            
             </div>
             
         </section>
