@@ -3,7 +3,7 @@ function About(){
     return(
         <section className='aboutSection'>
             <div className='firstBoxAbout'>
-               <h1 className='titleAbout'><span>────</span> About Us <span>────</span></h1>
+               <h2 className='titleAbout'><span>────</span> About Us <span>────</span></h2>
             <p className='paragraphAbout'>ShopReact is a modern shopping cart <br />
                Add your favorite items to the cart <br />
                built with React. Our goal is to provide <br />

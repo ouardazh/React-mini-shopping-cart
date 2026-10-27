@@ -1,16 +1,21 @@
 .aboutSection{
     padding: 2rem 4%;
+    
 }
 .firstBoxAbout{
     background-color: rgb(244, 243, 253);
     border-radius: 10px;
     padding: 2rem;
+    background-image: url('../../assets/img/iamge.avif');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .titleAbout span{
     color: rgb(95, 56, 199);
 }
 .titleAbout{
-    font-size: 36px;
+    font-size: 30px;
 }
 .paragraphAbout{
     padding: 1.5rem 0rem;
@@ -41,6 +46,9 @@
 .secondTitleAbout{
     padding-bottom: 1rem;
 }
+.secondTitleAbout span{
+    color: rgb(95, 56, 199);
+}
 .icon i{
     color: rgb(84, 37, 162);
 }
@@ -53,4 +61,41 @@
    justify-content: center;
    align-items: center;
    margin: 10px auto;
+}
+
+/* !----------Tablet--------------- */
+@media (min-width: 601px) and (max-width: 1024px) {
+  
+}
+
+/* !-----------Mobile------------- */
+@media (max-width: 600px) {
+   
+.aboutSection{
+    padding: 2rem 6%;
+    
+}
+
+.titleAbout{
+    font-size: 20px;
+}
+
+.containerAbout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+.secondTitleAbout{
+    padding-bottom: 1rem;
+    font-size: 20px;
+}
+.secondTitleAbout span{
+   display: none;
+}
+
+
+
 }
